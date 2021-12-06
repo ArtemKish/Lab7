@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class B:A
+    class B:A, EquationInterface
     {
         protected double getDis(double a, double b, double c)
         {
